@@ -1,3 +1,5 @@
+# Exercicio 117 - Crie a classe  Produto, onde podemos cadastrar nome e o preço.
+# Crie também um metodo que mostre uma etiqueta de preço do produto.
 from rich import print
 from rich.panel import Panel
 
