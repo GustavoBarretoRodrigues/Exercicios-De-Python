@@ -1,3 +1,6 @@
+# Crie a classe Gamer, onde podemos cadastrar nome, nick e os jogos favoritos de uma pessoa.
+# Crie também um metodo que permita mostrar a ficha desse gamer.
+
 from rich import print
 from rich.panel import Panel
 
