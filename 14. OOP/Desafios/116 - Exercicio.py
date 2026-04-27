@@ -1,3 +1,6 @@
+# Exercicio 116 - Crie a classe Funcionário, onde podemos cadastrar nome, setor e cargo.
+# Crie também um metodo que permite ao funcionário se apresentar .
+
 from rich import print
 
 class Funcionario:
