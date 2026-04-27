@@ -1,3 +1,6 @@
+# Exercicio 119 - Crie a classe Livro, que vai simular a passagem de páginas de um livro,
+# considerando também se o usuário chegou ao fim da leitura.
+
 from time import sleep
 from rich import print
 
@@ -9,7 +12,7 @@ class Livro:
         self.current_page = 1
         self.book = False
 
-    def open_book(self) -> bool:
+    def open_book(self) -> None:
         self.book = True
 
         print(f":book:[blue] Você acabou de abrir o livro [red]'{self.title}'[/] que tem [green]{self.pages}[/] no total. Você agora está na [yellow]{self.current_page}[/]")
