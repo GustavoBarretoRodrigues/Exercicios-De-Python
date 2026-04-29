@@ -17,7 +17,7 @@ class Funcionario(ABC):
         pass
 
     def analisar_sal(self):
-        conteudo = f"O salario de [bold blue]{self.nome}[/] é de [bold green]R$ {self.salario:.2f}[/] e corresponde a [bold yellow]{(self.salario / self.salario_min):.1f}[/] salários mínimos."
+        conteudo = f"O salario de [bold blue]{self.nome}[/] é de [bold green]R$ {self.salario:.2f}[/] e corresponde a [bold yellow]{(self.salario / self.salario_min):.1f}salários mínimos.[/]"
 
         painel = Panel(conteudo, title="[bold]Análise de Salário[/]", expand=False)
 
